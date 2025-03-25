@@ -1,0 +1,100 @@
+img.imagen-perfil {
+  max-width: 50px;
+  float: left;
+}
+
+.carousel-control.left {
+  background: none;
+}
+.carousel-control.right {
+  background: none;
+}
+
+.carousel-control {
+  position: absolute;
+  top: 45%;
+  bottom: 0;
+  left: 0;
+  width: 15%;
+  font-size: auto;
+  color: #fff;
+  text-align: center;
+  opacity: 1;
+  text-shadow: none;
+}
+.carousel-control:hover {
+  color: #000;
+}
+.carousel-indicators {
+  bottom: -50px;
+}
+.carousel-indicators li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 1px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #000\9;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #565656;
+  border-radius: 50%;
+}
+.carousel-indicators .active {
+  width: 12px;
+  height: 12px;
+  margin: 0;
+  background-color: #565656;
+}
+.carousel-caption {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.4);
+}
+table.dataTable thead,
+.table-responsive thead {
+  background: #565656;
+  font-family: "Calibri";
+  color: white;
+  font-size: 14px;
+  height: 40px;
+  text-align: center;
+}
+table.dataTable thead .sorting:after,
+table.dataTable thead .sorting_desc:after,
+table.dataTable thead .sorting_asc:after {
+  display: none !important;
+}
+table.dataTable thead th {
+  padding: 2px 20px !important;
+  text-align: center;
+  font-weight: lighter !important;
+}
+.table-responsive > thead > tr > th {
+  min-width: 100px;
+  height: 45px;
+}
+th div.titulo-columna {
+  font-weight: lighter !important;
+}
+div.orden-columna a {
+  color: white !important;
+}
+div.orden-columna div.row {
+  height: 5px;
+}
+.table-responsive > thead > tr > th div.header-columna {
+  padding: 4px;
+}
+div.clase-protocolo {
+  background: #565656;
+  color: white;
+  padding: 20px;
+}
